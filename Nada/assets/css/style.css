@@ -1,0 +1,96 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: #962121;
+    margin: 20px 70px;
+    font-weight: 900;
+}
+
+.btn-acheter {
+    width: 890px;
+    height: 65px;
+    background-image: url('../images/shape.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+}
+
+.btn-acheter:hover {
+    opacity: 0.8;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;        
+    width: 90%;             
+    max-width: 1200px;    
+    height: auto;   
+}
+
+.divider {
+    height: 2px;             
+    background-color: #191a1a62; 
+    margin: 20px 0;           
+    width: 100%;             
+}
+
+
+
+select {
+    width: 300px;          
+    height: 40px;          
+    font-size: 21px;       
+    padding: 5px 10px;     
+    color: #7a7777; 
+    border: 2px solid #6a6868; 
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 180px;
+}
+
+.form-row {
+    display: flex;           
+    justify-content: center;   
+    align-items: center;       
+    gap: 20px;               
+    margin-bottom: 10px;     
+}
+input[type="radio"] {
+    transform: scale(1.5); 
+    margin-right: 8px;     
+}
+
+label {
+    font-size: 23px;       
+    margin-right: 15px;    
+    font-weight: bold;
+    color: #7a7777; 
+
+}
+
+
+
+.arrow {
+    display: inline-block;
+    padding: 5px 12px;   
+    font-size: 25px;     
+    border-radius: 5px;  
+    background-color: #3eb338;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+background-color: #3eb338;
+;
+}
